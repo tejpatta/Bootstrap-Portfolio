@@ -1,0 +1,21 @@
+.AboutBg{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/header-640x\ \(1\).jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: blanchedalmond;
+}
+.cardContainer {
+
+}
+.card-img-top {
+object-fit: cover;
+max-height: 40vh;
+}
+
+#skills .card {
+    width: 25vw;
+}
