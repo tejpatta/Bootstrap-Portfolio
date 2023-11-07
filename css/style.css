@@ -1,3 +1,27 @@
+
+:root {
+    --palepink: palevioletred;
+  }
+
+body{
+    background-color: #f0cc90;
+}
+
+header {
+    padding: 1.5rem;
+    font-family: Garamond, Georgia, 'Times New Roman', serif;
+    background-color: #B4F8C8;
+}
+.navbar-brand{
+    font-size: 3rem ;
+}
+ .nav-link, .navbar-brand {
+    color: var(--palepink);
+ }
+.nav-link{
+    font-size: 1.5rem;
+    margin: 1rem;
+}
 .AboutBg{
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/header-640x\ \(1\).jpg);
     background-size: cover;
