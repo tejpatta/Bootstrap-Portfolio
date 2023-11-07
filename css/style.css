@@ -1,6 +1,6 @@
 
 :root {
-    --palepink: palevioletred;
+    --palepink: rgb(255, 84, 141);
     --elementbgalmond: blanchedalmond;
   }
 
@@ -11,7 +11,7 @@ body{
 header {
     padding: 1.2rem;
     font-family: Garamond, Georgia, 'Times New Roman', serif;
-    background-color: #B4F8C8;
+    background-color:#94d8a9;
 }
 .navbar-brand{
     font-size: 3rem ;
@@ -22,6 +22,8 @@ header {
 .nav-link{
     font-size: 1.5rem;
     margin: 1rem;
+    transition: box-shadow .3s;
+
 }
 .AboutBg{
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/header-640x\ \(1\).jpg);
@@ -34,7 +36,7 @@ header {
     color: var(--elementbgalmond);
 }
 .container-fluid {
-margin: 1.6rem;
+
 }
 
 #work .card-body{
@@ -62,8 +64,14 @@ max-height: 40vh;
     display: inline-flex;
     justify-content: space-between;
 }
-
+.fa-brands {
+    color: #478C5C;
+}
 
 .btn:hover {
-    box-shadow: 0 0 80px rgba(189, 75, 170, 0.2); 
+    box-shadow: 5px 10px rgba(189, 75, 170, 0.2); 
+}
+
+.nav-link:hover{
+    box-shadow: 5px 10px #478C5C; 
 }
