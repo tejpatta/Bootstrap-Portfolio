@@ -1,6 +1,7 @@
 
 :root {
     --palepink: palevioletred;
+    --elementbgalmond: blanchedalmond;
   }
 
 body{
@@ -8,7 +9,7 @@ body{
 }
 
 header {
-    padding: 1.5rem;
+    padding: 1.2rem;
     font-family: Garamond, Georgia, 'Times New Roman', serif;
     background-color: #B4F8C8;
 }
@@ -30,9 +31,19 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: blanchedalmond;
+    color: var(--elementbgalmond);
 }
-.cardContainer {
+.container-fluid {
+margin: 1.6rem;
+}
+
+#work .card-body{
+    background-color: var(--elementbgalmond);
+}
+#work .btn {
+    background-color: #478C5C;
+    color: white;
+    transition: box-shadow .3s;
 
 }
 .card-img-top {
@@ -40,6 +51,19 @@ object-fit: cover;
 max-height: 40vh;
 }
 
-#skills .card {
-    width: 25vw;
+#skills .card-header {
+    background-color: #82c897;
+}
+#skills .list-group-item{
+    background-color: var(--elementbgalmond);
+}
+#contact{
+    display: flex;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+
+.btn:hover {
+    box-shadow: 0 0 80px rgba(189, 75, 170, 0.2); 
 }
