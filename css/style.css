@@ -1,4 +1,5 @@
 
+/*make frequently used colours variables*/
 :root {
     --palepink: rgb(255, 84, 141);
     --elementbgalmond: blanchedalmond;
@@ -8,6 +9,7 @@ body{
     background-color: #f0cc90;
 }
 
+/*navbar styles*/ 
 header {
     padding: 1.2rem;
     font-family: Garamond, Georgia, 'Times New Roman', serif;
@@ -25,6 +27,8 @@ header {
     transition: box-shadow .3s;
 
 }
+
+/*JumboTron Style*/
 .AboutBg{
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/header-640x\ \(1\).jpg);
     background-size: cover;
@@ -35,10 +39,8 @@ header {
     justify-content: center;
     color: var(--elementbgalmond);
 }
-.container-fluid {
 
-}
-
+/*work section style*/
 #work .card-body{
     background-color: var(--elementbgalmond);
 }
@@ -53,6 +55,7 @@ object-fit: cover;
 max-height: 40vh;
 }
 
+/*skill section style*/
 #skills .card-header {
     background-color: #82c897;
 }
@@ -68,6 +71,7 @@ max-height: 40vh;
     color: #478C5C;
 }
 
+/*hover effects for links*/
 .btn:hover {
     box-shadow: 5px 10px rgba(189, 75, 170, 0.2); 
 }
@@ -75,3 +79,9 @@ max-height: 40vh;
 .nav-link:hover{
     box-shadow: 5px 10px #478C5C; 
 }
+
+.fa-brands:hover{
+    color: var(--palepink);
+    box-shadow: 0 0 5px var(--palepink);
+    text-shadow: 0 0 5px var(--palepink);
+  }
