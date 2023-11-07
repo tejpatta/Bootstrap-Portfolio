@@ -12,6 +12,7 @@ Accessible on Git Hub Pages at the link below in 'usage'.
 
 ## Usage
 The site can be accessed here: https://tejpatta.github.io/Bootstrap-Portfolio/
+The previous portfolio, created without Bootstrap, can be accessed here: https://tejpatta.github.io/tejportfolio/
 
 To use this webpage, you can scroll along to read the content, or click the navigation links in the top right corner of the page to navigate to a specific section. Click on the 'Challenge' and 'Prework' boxes in the 'Work' section to be taken to those deployed sites. The other tiles have disabled buttons and do not lead to other pages. 
 
